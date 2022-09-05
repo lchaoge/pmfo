@@ -1,0 +1,77 @@
+.pmfo-nuclearAdvantage__banner{
+  height: 474px;
+  position: relative;
+  background: url(../images/nuclearAdvantage__banner.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+.pmfo-nuclearAdvantage__banner-textbox{
+  position: absolute;
+  top: 110px;
+  left: 0;
+}
+.pmfo-nuclearAdvantage__banner-title{
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 56px;
+  color: #C7A47C;
+  padding-left: 140px;
+}
+.pmfo-nuclearAdvantage__banner-title>em{
+  font-style: normal;
+  color: #fff;
+}
+.pmfo-nuclearAdvantage__banner-content{
+  margin-top: 16px;
+  width: 980px;
+  height: 195px;
+  background: rgba(37,37,37,0.89);
+  padding: 40px 40px 40px 140px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+.pmfo-nuclearAdvantage__cradbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+.pmfo-nuclearAdvantage__crad{
+  position: relative;
+  width: 25%;
+  height: 873px;
+}
+.pmfo-nuclearAdvantage__crad-6{
+  width: 50%;
+}
+.pmfo-nuclearAdvantage__crad-front{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+.pmfo-nuclearAdvantage__crad-front>img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.pmfo-nuclearAdvantage__crad-front>h4{
+  background: rgba(112,112,112,0.79);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #FFFFFF;
+}
