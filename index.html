@@ -24,13 +24,19 @@
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
   <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/animate.min.css">
+  <link rel="stylesheet" href="./css/kissui.css">
+  <link rel="stylesheet" href="./css/scrollanim.min.css">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/index.css">
 </head>
 <body class="pmfo-index">
   <div class="pmfo-index__header">
     <div class="pmfo-index__header-wrapper">
-      <a class="pmfo-index__header-login" href="index.html">Pinnacle Millennium Family Office</a>
+      <a class="pmfo-index__header-login" href="index.html">
+        <img src="./images/pmfo-logo.png" />
+        <span>Pinnacle Millennium Family Office</span>
+      </a>
       <ul class="pmfo-index__header-nav nav nav-pills">
         <li role="presentation" class="active"><a href="index.html">企业介绍</a></li>
         <li role="presentation"><a href="groupStructure.html">集团构架</a></li>
@@ -101,5 +107,72 @@
       <span>地址：北京市朝阳区北四环中路27号盘古⼤观9-901</span>
     </div>
   </div>
+
+  <div id="pmfo-to-top">
+    <i class="glyphicon glyphicon-plane"></i>
+  </div>
+  <script src="./js/common.js"></script>
+  <script src="./js/scrollanim.min.js"></script>
+  <script>
+    $(function(){
+      $('.pmfo-index__banner-textbox').addClass('animated fadeInDown');
+      setTimeout(function(){
+          $('.pmfo-index__banner-textbox').removeClass('fadeInDown');
+      }, 1000);
+    });
+
+    kissuiScrollAnim.add(document.getElementsByClassName('pmfo-index__introduction-title')[0], {
+      'in': 'fadeInUp',
+      'out': 'fadeInUp'
+    })
+    kissuiScrollAnim.add(document.getElementsByClassName('pmfo-index__introduction-content-text')[0], {
+      'in': 'bounceInLeft',
+      'out': 'bounceInLeft'
+    })
+    kissuiScrollAnim.add(document.getElementsByClassName('pmfo-index__introduction-content-image')[0], {
+      'in': 'bounceInRight',
+      'out': 'bounceInRight'
+    })
+
+    kissuiScrollAnim.add(document.getElementsByClassName('pmfo-index__idea-title')[0], {
+      'in': 'fadeInRight',
+      'out': 'fadeInRight'
+    })
+    kissuiScrollAnim.add(document.getElementsByClassName('pmfo-index__idea-content')[0], {
+      'in': 'flipInX',
+      'out': 'flipInX'
+    })                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+    kissuiScrollAnim.add(document.getElementsByClassName('pmfo-index__service-title')[0], {
+      'in': 'rollIn',
+      'out': 'rollIn'
+    })
+    kissuiScrollAnim.add(document.getElementsByClassName('pmfo-index__service-content-card')[0], {
+      'in': 'fadeInLeftBig',
+      'out': 'fadeInLeftBig'
+    })
+    kissuiScrollAnim.add(document.getElementsByClassName('pmfo-index__service-content-card')[1], {
+      'in': 'lightSpeedIn',
+      'out': 'lightSpeedIn'
+    })
+
+    kissuiScrollAnim.add(document.getElementsByClassName('pmfo-index__future-content-image')[0], {
+      'in': 'slideInDown',
+      'out': 'slideInDown'
+    })
+    kissuiScrollAnim.add(document.getElementsByClassName('pmfo-index__future-title')[0], {
+      'in': 'slideInLeft',
+      'out': 'slideInLeft'
+    })
+    kissuiScrollAnim.add(document.getElementsByClassName('pmfo-index__future-content-logo')[0], {
+      'in': 'slideInRight',
+      'out': 'slideInRight'
+    })
+    kissuiScrollAnim.add(document.getElementsByClassName('pmfo-index__future-content-text')[0], {
+      'in': 'slideInUp',
+      'out': 'slideInUp'
+    })
+    
+  </script>
 </body>
 </html>

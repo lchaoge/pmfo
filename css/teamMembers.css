@@ -1,3 +1,6 @@
+.pmfo-teamMembers__introduce{
+  padding-top: 72px;
+}
 .pmfo-teamMembers__introduce-detailbox{
   display: flex;
   justify-content: space-between;
@@ -66,6 +69,12 @@
   width: 25%;
   height: 430px;
   overflow: hidden;
+  cursor: pointer;
+
+}
+.pmfo-teamMembers__introduce-card-active .pmfo-teamMembers__introduce-card-behind,.pmfo-teamMembers__introduce-card:hover .pmfo-teamMembers__introduce-card-behind{
+  display: block;
+  
 }
 .pmfo-teamMembers__introduce-card-front{
   position: absolute;
@@ -89,6 +98,8 @@
   height: 100%;
   z-index: 20;
   background: rgba(29,40,58,0.79);
+  display: none;
+  transition: .3s ease;
 }
 .pmfo-teamMembers__introduce-card-behind-title{
   position: relative;
