@@ -5,6 +5,7 @@
   position: relative;
   width: 20%;
   height: 1063px;
+  transition: all 0.5s;
 }
 .pmfo-ourServices__shutter-card-1{
   background: url(../images/ourServices__shutter-11.png) no-repeat center center;
@@ -38,6 +39,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  transition: all 0.5s;
 }
 .pmfo-ourServices__shutter-front-image{
   display: block;
@@ -71,6 +73,7 @@
   align-content: center;
   flex-direction: column;
   display: none;
+  transition: all 0.5s;
 }
 .pmfo-ourServices__shutter-behind::before{
   position: absolute;

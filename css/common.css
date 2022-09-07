@@ -1,3 +1,6 @@
+.pmfo{
+  overflow: hidden auto;
+}
 .pmfo-index__header{
   position: fixed;
   top: 0;
@@ -113,6 +116,7 @@
   justify-content: center;
   cursor: pointer;
   z-index: 10000;
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 10%);
 }
 #pmfo-to-top>i{
   font-size: 20px;
