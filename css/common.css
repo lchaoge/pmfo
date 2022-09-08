@@ -129,6 +129,9 @@
 .pmfo-index__header-nav.nav-pills>li+li{
   margin-left: 0;
 }
+.pmfo-index__header-nav__dropdown{
+  display: none;
+}
 
 /* footer */
 
@@ -181,15 +184,31 @@
   font-size: 20px;
   color: #fff;
 }
+.pmfo-index__header-nav__dropdown-menu,.pmfo-index__header-nav__dropdown-menu.btn-warning:hover,.pmfo-index__header-nav__dropdown-menu.btn-warning.focus, .pmfo-index__header-nav__dropdown-menu.btn-warning:focus{
+  background: #C7A47C;
+  border-color: #C7A47C;
+  outline: none;
+}
+.pmfo-index__header-nav__dropdown .dropdown-menu{
+  left: auto;
+  right: 0;
+}
+.pmfo-index__header-nav__dropdown .dropdown-menu>.active>a{
+  background-color: #C7A47C;
+}
 
 
-
+@media (max-width: 1200px) {
+  .pmfo-index__header-nav{
+    display: none;
+  }
+  .pmfo-index__header-nav__dropdown{
+    display: block;
+  }
+}
 
 /* 1200 */
 @media (max-width: 1440px) {
-  .pmfo-index__header{
-    min-width: 1200px !important;
-  }
   .pmfo-index__header-login span{
     font-size: 14px;
     left: 0px;
