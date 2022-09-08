@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .pmfo{
   min-width: 1200px !important;
 }
@@ -14,15 +21,27 @@
 .pmfo-index__header-wrapper{
   padding: 0 16px;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .pmfo-index__header-login,.pmfo-index__header-login:hover{
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .pmfo-index__header-login img{
   -webkit-animation-name: imgScaleDraw; /*关键帧名称*/
@@ -40,18 +59,40 @@
   position: relative;
   left: -10px;
 }
-@keyframes imgScaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+@-webkit-keyframes imgScaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
   0%{
-    transform: scale(1);  /*开始为原始大小*/
+    -webkit-transform: scale(1);
+            transform: scale(1);  /*开始为原始大小*/
   }
   25%{
-    transform: scale(1.2); /*放大1.1倍*/
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); /*放大1.1倍*/
   }
   50%{
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   75%{
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+@keyframes imgScaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+  0%{
+    -webkit-transform: scale(1);
+            transform: scale(1);  /*开始为原始大小*/
+  }
+  25%{
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); /*放大1.1倍*/
+  }
+  50%{
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  75%{
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
   }
 }
 .pmfo-index__header-nav{
@@ -62,13 +103,18 @@
   height: 100%;
 }
 .pmfo-index__header-nav>li>a{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
   font-size: 20px;
   font-weight: 400;
   color: #FFFFFF;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 0;
 }
 .pmfo-index__header-nav.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
@@ -91,9 +137,15 @@
   height: 36px;
 }
 .pmfo-index__footer-wrapper{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
   text-align: center;
   font-size: 12px;
@@ -111,12 +163,19 @@
   background: #C7A47C;
   width: 50px;
   height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
   z-index: 10000;
-  box-shadow: 0 0 10px 1px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: 0 0 10px 1px rgb(0 0 0 / 10%);
+          box-shadow: 0 0 10px 1px rgb(0 0 0 / 10%);
 }
 #pmfo-to-top>i{
   font-size: 20px;
