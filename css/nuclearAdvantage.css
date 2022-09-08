@@ -15,7 +15,7 @@
   line-height: 56px;
   color: #C7A47C;
   padding-left: 140px;
-  margin-bottom: 0;
+  margin: 0;
 }
 .pmfo-nuclearAdvantage__banner-title>em{
   font-style: normal;
@@ -24,7 +24,6 @@
 .pmfo-nuclearAdvantage__banner-content{
   margin-top: 16px;
   width: 980px;
-  height: 195px;
   background: rgba(37,37,37,0.89);
   padding: 40px 40px 40px 140px;
   font-size: 20px;
@@ -40,32 +39,13 @@
   position: relative;
   width: 25%;
   height: 873px;
-  /* -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-perspective: 1000px;
-  perspective: 1000px; */
   cursor: pointer;
   transition: all 3s;
-}
-.pmfo-nuclearAdvantage__crad-front,.pmfo-nuclearAdvantage__crad-behind{
-  /* background-size: cover;
-  background-position: center;
-  -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-  transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-  -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-  transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-  transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; */
 }
 .pmfo-nuclearAdvantage__crad-6{
   width: 50%;
 }
 .pmfo-nuclearAdvantage__crad-front{
-  /* -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d; */
   position: absolute;
   top: 0;
   left: 0;
@@ -111,10 +91,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d; */
   opacity: 0;
   transition: all 0.5s;
 }
@@ -125,24 +101,52 @@
   color: #FFFFFF;
   margin: 0;
 }
-.pmfo-nuclearAdvantage__crad:hover .pmfo-nuclearAdvantage__crad-front h4 {
-  /* opacity: 0; */
-  /* -webkit-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d; */
-}
 .pmfo-nuclearAdvantage__crad:hover .pmfo-nuclearAdvantage__crad-behind {
   opacity: 1;
-  /* -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d; */
 }
-.pmfo-nuclearAdvantage__crad:hover .pmfo-nuclearAdvantage__crad-front, .pmfo-nuclearAdvantage__crad:hover .pmfo-nuclearAdvantage__crad-behind {
-  /* -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-  transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-  -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-  transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-  transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1); */
+
+/* 1200 */
+@media  (max-width: 1440px) {
+  .pmfo-nuclearAdvantage__crad{
+    height: 600px;
+  }
+  .pmfo-nuclearAdvantage__crad-front>h4{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .pmfo-nuclearAdvantage__crad-behind{
+    padding: 0 30px;
+  }
+  .pmfo-nuclearAdvantage__crad-behind>p{
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
+/* 1440 */
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .pmfo-nuclearAdvantage__banner-textbox{
+    top: 160px;
+  }
+  .pmfo-nuclearAdvantage__banner-content{
+    width: 880px;
+    font-size: 18px;
+    line-height: 36px;
+  }
+  .pmfo-nuclearAdvantage__crad{
+    height: 700px;
+  }
+  .pmfo-nuclearAdvantage__crad-front>h4{
+    font-size: 24px;
+    line-height: 38px;
+  }
+  .pmfo-nuclearAdvantage__crad-behind{
+    padding: 0 40px;
+  }
+  .pmfo-nuclearAdvantage__crad-behind>p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+/* 1920 */
+@media (min-width: 1920px) {
 }

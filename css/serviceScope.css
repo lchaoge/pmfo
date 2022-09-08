@@ -50,3 +50,41 @@
 .pmfo-serviceScope__card-2 .pmfo-serviceScope__card-describe{
   padding-right: 84px;
 }
+
+
+/* 1200 */
+@media (max-width: 1440px) {
+  .pmfo-serviceScope__card{
+    height: 700px;
+  }
+  .pmfo-serviceScope__card-wrapper{
+    padding: 100px 100px 0;
+  }
+  .pmfo-serviceScope__card-title{
+    font-size: 120px;
+    line-height: 140px;
+  }
+  .pmfo-serviceScope__card-content{
+    margin-top: 60px;
+  }
+  .pmfo-serviceScope__card-subtitle{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .pmfo-serviceScope__card-1 .pmfo-serviceScope__card-describe{
+    padding-left: 60px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+  }
+  .pmfo-serviceScope__card-2 .pmfo-serviceScope__card-describe{
+    padding-right: 60px;
+  }
+}
+/* 1440 */
+@media (min-width: 1440px) and (max-width: 1920px) {
+  
+}
+/* 1920 */
+@media (min-width: 1920px) {
+}

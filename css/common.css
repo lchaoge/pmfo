@@ -1,5 +1,5 @@
 .pmfo{
-  overflow: hidden auto;
+  min-width: 1200px !important;
 }
 .pmfo-index__header{
   position: fixed;
@@ -121,4 +121,40 @@
 #pmfo-to-top>i{
   font-size: 20px;
   color: #fff;
+}
+
+
+
+
+/* 1200 */
+@media (max-width: 1440px) {
+  .pmfo-index__header{
+    min-width: 1200px !important;
+  }
+  .pmfo-index__header-login span{
+    font-size: 14px;
+    left: 0px;
+  }
+  .pmfo-index__header-nav>li{
+    padding: 0 10px;
+  }
+  .pmfo-index__header-nav>li>a{
+    font-size: 14px;
+  }
+}
+/* 1440 */
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .pmfo-index__header-login span{
+    font-size: 16px;
+  }
+  .pmfo-index__header-nav>li{
+    padding: 0 15px;
+  }
+  .pmfo-index__header-nav>li>a{
+    font-size: 16px;
+  }
+  
+}
+/* 1920 */
+@media (min-width: 1920px) {
 }
