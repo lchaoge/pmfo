@@ -85,8 +85,8 @@ var execI18n = function(){
       /*
       首先获取用户浏览器设备之前选择过的语言类型
        */
-      if (getCookie("userLanguage")) {
-          i18nLanguage = getCookie("userLanguage");
+      if (getCookie("pmfoLanguage")) {
+          i18nLanguage = getCookie("pmfoLanguage");
       } else {
           // 获取浏览器语言
           var navLanguage = getNavLanguage();
@@ -96,7 +96,7 @@ var execI18n = function(){
               if (charSize > -1) {
                   i18nLanguage = navLanguage;
                   // 存到缓存中
-                  getCookie("userLanguage",navLanguage);
+                  getCookie("pmfoLanguage",navLanguage);
               };
           } else{
               console.log("not navigator");
@@ -118,6 +118,7 @@ var execI18n = function(){
           mode : 'map', //用Map的方式使用资源文件中的值
           language : i18nLanguage,
           callback : function() {//加载成功后设置显示内容
+            
               var insertEle = $(".i18n");
               console.log(".i18n 写入中...");
               insertEle.each(function() {
@@ -126,16 +127,8 @@ var execI18n = function(){
               });
               console.log("写入完毕");
 
-              console.log(".i18n-input 写入中...");
-              var insertInputEle = $(".i18n-input");
-              insertInputEle.each(function() {
-                  var selectAttr = $(this).attr('selectattr');
-                  if (!selectAttr) {
-                      selectAttr = "value";
-                  };
-                  $(this).attr(selectAttr, $.i18n.prop($(this).attr('selectname')));
-              });
-              console.log("写入完毕");
+              document.title = `${$.i18n.prop("pagetitle")} - ${$.i18n.prop("project.title")}`
+
           }
       });
 }
@@ -147,13 +140,19 @@ $(function(){
   execI18n();
 
   /*将语言选择默认选中缓存中的值*/
-  $("#language option[value="+i18nLanguage+"]").attr("selected",true);
+    $(".language").each(function(){
+        var language = $(this).attr('value')
+        if(i18nLanguage === language){
+            $(this).removeClass("btn-default").addClass("btn-warning")
+        }
+    })
+
 
   /* 选择语言 */
-  $("#language").on('change', function() {
-      var language = $(this).children('option:selected').val()
+  $(".language").on('click', function() {
+      var language = $(this).attr('value')
       console.log(language);
-      getCookie("userLanguage",language,{
+      getCookie("pmfoLanguage",language,{
           expires: 30,
           path:'/'
       });

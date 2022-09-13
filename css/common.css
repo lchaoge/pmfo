@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .pmfo{
   min-width: 1200px !important;
 }
@@ -132,6 +139,33 @@
 .pmfo-index__header-nav__dropdown{
   display: none;
 }
+.pmfo-index__header-navbox{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+.pmfo-index__header-language{
+  margin: 0 10px;
+  width: 90px;
+  min-width: 90px;
+}
+.pmfo-index__header-language .btn-warning{
+  background-color: #8F8B85;
+  border-color: #8F8B85;
+  color: #DEDEDE;
+}
+.pmfo-index__header-language .btn-default{
+  background-color: #4E4E4E;
+  border-color: #4E4E4E;
+  color: #969595;
+}
+.pmfo-index__header-language .btn.focus, .pmfo-index__header-language .btn:focus,.pmfo-index__header-language .btn:active:focus{
+  outline: none;
+}
 
 /* footer */
 
@@ -160,6 +194,7 @@
 
 
 #pmfo-to-top{
+  
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -210,14 +245,14 @@
 /* 1200 */
 @media (max-width: 1440px) {
   .pmfo-index__header-login span{
-    font-size: 14px;
+    font-size: 12px;
     left: 0px;
   }
   .pmfo-index__header-nav>li{
-    padding: 0 10px;
+    padding: 0;
   }
   .pmfo-index__header-nav>li>a{
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 /* 1440 */

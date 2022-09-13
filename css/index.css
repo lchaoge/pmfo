@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .pmfo-index__banner{
   position: relative;
   height: 1080px;
@@ -54,7 +61,6 @@
   font-weight: 500;
   line-height: 56px;
   color: #C7A47C;
-  letter-spacing: 50px;
   text-align: center;
   margin: 0;
 }
@@ -102,7 +108,6 @@
   font-weight: 500;
   line-height: 56px;
   color: #707070;
-  letter-spacing: 50px;
   text-align: center;
   margin: 0;
 }
@@ -130,7 +135,6 @@
   font-weight: 500;
   line-height: 56px;
   color: #FFFFFF;
-  letter-spacing: 50px;
   text-align: center;
   margin: 0;
 }
@@ -190,7 +194,7 @@
   padding: 0 68px;
   font-size: 20px;
   font-weight: 300;
-  line-height: 40px;
+  line-height: 1.2;
   color: #FFFFFF;
   text-align: center;
   background: rgba(62,62,62,0.39);
@@ -237,7 +241,6 @@
   font-weight: 500;
   line-height: 56px;
   color: #C7A47C;
-  letter-spacing: 50px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>集团核⼼优势 - Pinnacle Millennium Family Office</title>
+  <title>Pinnacle Millennium Family Office</title>
   <meta charset="UTF-8">
+  <meta id="i18n_pagename" content="nuclearAdvantage-common">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="author" content="pmfo" />
   <meta name="description" content="Pinnacle Millennium Family Office" />
@@ -29,26 +30,33 @@
     <div class="pmfo-index__header-wrapper">
       <a class="pmfo-index__header-login" href="index.html">
         <img src="./images/pmfo-logo.png" />
-        <span>Pinnacle Millennium Family Office</span>
+        <span class="i18n" name="project.title"></span>
       </a>
-      <ul class="pmfo-index__header-nav nav nav-pills">
-        <li role="presentation"><a href="index.html">企业介绍</a></li>
-        <li role="presentation"><a href="groupStructure.html">集团构架</a></li>
-        <li role="presentation" class="active"><a href="nuclearAdvantage.html">集团核⼼优势</a></li>
-        <li role="presentation"><a href="teamMembers.html">团队成员</a></li>
-        <li role="presentation"><a href="serviceScope.html">服务范围</a></li>
-        <li role="presentation"><a href="ourServices.html">我们的服务</a></li>
-      </ul>
-      <div class="pmfo-index__header-nav__dropdown dropdown">
-        <button class="pmfo-index__header-nav__dropdown-menu btn btn-warning glyphicon glyphicon-align-justify" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-        <ul class="dropdown-menu" aria-labelledby="dLabel">
-          <li role="presentation"><a href="index.html">企业介绍</a></li>
-          <li role="presentation"><a href="groupStructure.html">集团构架</a></li>
-          <li role="presentation" class="active"><a href="nuclearAdvantage.html">集团核⼼优势</a></li>
-          <li role="presentation"><a href="teamMembers.html">团队成员</a></li>
-          <li role="presentation"><a href="serviceScope.html">服务范围</a></li>
-          <li role="presentation"><a href="ourServices.html">我们的服务</a></li>
+      <div class="pmfo-index__header-navbox">
+        <ul class="pmfo-index__header-nav nav nav-pills">
+          <li role="presentation"><a class="i18n" href="index.html" name="common.nav.item1"></a></li>
+          <li role="presentation"><a class="i18n" href="groupStructure.html" name="common.nav.item2"></a></li>
+          <li role="presentation" class="active"><a class="i18n" href="nuclearAdvantage.html" name="common.nav.item3"></a></li>
+          <li role="presentation"><a class="i18n" href="teamMembers.html" name="common.nav.item4"></a></li>
+          <li role="presentation"><a class="i18n" href="serviceScope.html" name="common.nav.item5"></a></li>
+          <li role="presentation"><a class="i18n" href="ourServices.html" name="common.nav.item6"></a></li>
         </ul>
+        <div class="pmfo-index__header-language btn-group btn-group-xs" role="group">
+          <button type="button" class="language btn btn-default i18n" name="common.i18n.item1" value="zh-CN"></button>
+          <button type="button" class="language btn btn-default i18n" name="common.i18n.item2" value="en"></button>
+          <button type="button" class="language btn btn-default i18n" name="common.i18n.item3" value="zh-TW"></button>
+        </div>
+        <div class="pmfo-index__header-nav__dropdown dropdown">
+          <button class="pmfo-index__header-nav__dropdown-menu btn btn-warning glyphicon glyphicon-align-justify" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+          <ul class="dropdown-menu" aria-labelledby="dLabel">
+            <li role="presentation"><a class="i18n" href="index.html" name="common.nav.item1"></a></li>
+            <li role="presentation"><a class="i18n" href="groupStructure.html" name="common.nav.item2"></a></li>
+            <li role="presentation" class="active"><a class="i18n" href="nuclearAdvantage.html" name="common.nav.item3"></a></li>
+            <li role="presentation"><a class="i18n" href="teamMembers.html" name="common.nav.item4"></a></li>
+            <li role="presentation"><a class="i18n" href="serviceScope.html" name="common.nav.item5"></a></li>
+            <li role="presentation"><a class="i18n" href="ourServices.html" name="common.nav.item6"></a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -56,9 +64,10 @@
   <div class="pmfo-nuclearAdvantage__banner">
     <div class="pmfo-nuclearAdvantage__banner-textbox">
       <h3 class="pmfo-nuclearAdvantage__banner-title wow fadeInDown" data-wow-duration="2s">
-        <em>集团</em>核⼼优势
+        <em class="i18n" name="nuclearAdvantage.banner.title.em"></em>
+        <span class="i18n" name="nuclearAdvantage.banner.title"></span>
       </h3>
-      <div class="pmfo-nuclearAdvantage__banner-content wow slideInDown" data-wow-duration="2s">瓴峰百年国际教育集团帮助中国⾼净值和超⾼净值家庭提供私密定制化教育解决⽅案，引领每⼀位学⽣通过数字化科技教育⽅式赋能学⽣，通过洞察世界来选择⾃⼰的未来最佳发展路径，帮助学⽣和家⻓共同设⽴⽬标和抱负，以终为始，⽆问⻄东。</div>
+      <div class="pmfo-nuclearAdvantage__banner-content wow slideInDown i18n" data-wow-duration="2s" name="nuclearAdvantage.banner.content"></div>
     </div>
   </div>
 
@@ -66,64 +75,79 @@
     <div class="pmfo-nuclearAdvantage__crad wow fadeIn" data-wow-duration="2s" data-wow-delay="0s">
       <div class="pmfo-nuclearAdvantage__crad-front">
         <img src="./images/nuclearAdvantage__crad-1.png" />
-        <h4>全球顶尖学术能⼒+<br>职业素养提升导师团队</h4>
+        <h4>
+          <div class="i18n" name="nuclearAdvantage.crad1.title1"></div>
+          <div class="i18n" name="nuclearAdvantage.crad1.title2"></div>
+        </h4>
       </div>
       <div class="pmfo-nuclearAdvantage__crad-behind">
-        <p>基于瓴峰百年在教育、咨询、实业⾏业内丰富的⼈脉，我们汇聚了世界上全领域学术和实战的教育专家各⾏业导师，萃取最前沿的世界教育研究⽅法和企业教学论，为学⽣提供定制化全⽅位的学术能⼒提升⽅案，帮助学⽣构建⾼效学习⽅法，逐步提升学术洞察和学习⽅法论。</p>
+        <p class="i18n" name="nuclearAdvantage.crad1.behind"></p>
       </div>
     </div>
     <div class="pmfo-nuclearAdvantage__crad wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
       <div class="pmfo-nuclearAdvantage__crad-front">
         <img src="./images/nuclearAdvantage__crad-2.png" />
-        <h4>卓越影响⼒的招⽣官<br>与发展办公室团队</h4>
+        <h4>
+          <div class="i18n" name="nuclearAdvantage.crad2.title1"></div>
+          <div class="i18n" name="nuclearAdvantage.crad2.title2"></div>
+        </h4>
       </div>
       <div class="pmfo-nuclearAdvantage__crad-behind">
-        <p>拥有全球名校招⽣⼯作⼗五年以上的前招⽣官、发展办公室主任及名校校友联络⽹，为学⽣带来最前沿的申请政策洞察，让学⽣掌控并且以终为始的规划⾃⼰申请过程。此外，我们协助学⽣校园访问各⼤顶尖院校，根据教育论⽅法分析不同纬度和⼴度分析个⼈特⾊，⽤科学教育研究⽅法论给予定制化的提升指导。</p>
+        <p class="i18n" name="nuclearAdvantage.crad2.behind"></p>
       </div>
     </div>
     <div class="pmfo-nuclearAdvantage__crad wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
       <div class="pmfo-nuclearAdvantage__crad-front">
         <img src="./images/nuclearAdvantage__crad-3.png" />
-        <h4>成就⾮凡的企业导师<br>与发展办公室团队</h4>
+        <h4>
+          <div class="i18n" name="nuclearAdvantage.crad3.title1"></div>
+          <div class="i18n" name="nuclearAdvantage.crad3.title2"></div>
+        </h4>
       </div>
       <div class="pmfo-nuclearAdvantage__crad-behind">
-        <p>拥有超过30位国内顶尖前外资，业界⼤咖携⼿打造定制化培养计划。从客户的定制化需求出发，深度抛析学⽣的个⼈性格和职业特⾊，更⾼效与全⽅位打造学⽣进⼊企业的价值链和⼯作⽅法论。提前规划学⽣从⾼中开始探索商业，科技，艺术世界的奥秘。</p>
+        <p class="i18n" name="nuclearAdvantage.crad3.behind"></p>
       </div>
     </div>
     <div class="pmfo-nuclearAdvantage__crad wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
       <div class="pmfo-nuclearAdvantage__crad-front">
         <img src="./images/nuclearAdvantage__crad-4.png" />
-        <h4>⾼含⾦量科研项⽬<br>及顶尖教授联络</h4>
+        <h4>
+          <div class="i18n" name="nuclearAdvantage.crad4.title1"></div>
+          <div class="i18n" name="nuclearAdvantage.crad4.title2"></div>
+        </h4>
       </div>
       <div class="pmfo-nuclearAdvantage__crad-behind">
-        <p>北美最顶尖⾼校学院院⻓，中国科学院院⼠，诺⻉尔得奖教授资源，为学⽣匹配定制化的科研项⽬。跟随顶尖名校师资团队，深度参与项⽬研究，提升个⼈科研实践能⼒，协助打造学⽣的科研背景。学⽣可在研究中建⽴亦师亦友终身受益的⻓期师⽣联系，助⼒个⼈和家庭企业的未来发展。 </p>
+        <p class="i18n" name="nuclearAdvantage.crad4.behind"></p>
       </div>
     </div>
     <div class="pmfo-nuclearAdvantage__crad wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
       <div class="pmfo-nuclearAdvantage__crad-front">
         <img src="./images/nuclearAdvantage__crad-5.png" />
-        <h4>亦师亦友的专业<br>服务团队</h4>
+        <h4>
+          <div class="i18n" name="nuclearAdvantage.crad5.title1"></div>
+          <div class="i18n" name="nuclearAdvantage.crad5.title2"></div>
+        </h4>
       </div>
       <div class="pmfo-nuclearAdvantage__crad-behind">
-        <p>学术教育⽅⾯服务团队国内外拥有6年以上的留学⾏业经验的服务团队。从学⽣兴趣出发帮助学⽣探索、求知、表达个性，与学⽣共情，陪伴学⽣成⻓。服务团队拥有丰富的海外实战和学习经历，地道的英语背景，创新和批判性的思维，严谨治学的⼯作态度，最终把控学⽣录取结果。</p>
+        <p class="i18n" name="nuclearAdvantage.crad5.behind"></p>
       </div>
     </div>
     <div class="pmfo-nuclearAdvantage__crad wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
       <div class="pmfo-nuclearAdvantage__crad-front">
         <img src="./images/nuclearAdvantage__crad-6.png" />
-        <h4>成⻓式课外活动安排</h4>
+        <h4 class="i18n" name="nuclearAdvantage.crad6.title"></h4>
       </div>
       <div class="pmfo-nuclearAdvantage__crad-behind">
-        <p>申请团队以学⽣兴趣为动机，打造全流程培养式活动。针对商业活动⽅⾯的学⽣，包括商业组织、全球财经论坛、创业竞赛、辅导学员创业并⽀持社团创⽴。针对艺术活动⽅⾯的学⽣，提供纽约时装周、戛纳电影节等顶尖⾏业峰会。针对科研⽅⾯，包括科研课题，书籍出版，专利申请，创意产品设计等。课外素质培养⽅⾯，包括⾼尔夫、艺术品品鉴、管乐团合作演出、帆船⽐赛等。针对学术⽅⾯，包括实地参与哈佛、耶鲁、芝⼤等常⻘藤⼤学教授的科研项⽬，参与国际奥林匹克或国家级学科竞赛，多维度、宽领域提升学员综合才能。 </p>
+        <p class="i18n" name="nuclearAdvantage.crad6.behind"></p>
       </div>
     </div>
     <div class="pmfo-nuclearAdvantage__crad pmfo-nuclearAdvantage__crad-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
       <div class="pmfo-nuclearAdvantage__crad-front">
         <img src="./images/nuclearAdvantage__crad-7.png" />
-        <h4>跨学科全维度的成功案例</h4>
+        <h4 class="i18n" name="nuclearAdvantage.crad7.title"></h4>
       </div>
       <div class="pmfo-nuclearAdvantage__crad-behind">
-        <p>在学术⽅⾯顶尖团队的多年努⼒下，积累了⼤ᰁ的成功案例，包括常⻘藤在内的哈佛，斯坦福，麻省理⼯，加州理⼯，⽜津剑桥等顶级名校。除此之外，团队拥有多名疑难问题学⽣处理，包括低分⾼录，等待名单转正，转正等服务。服务团队经过⻓年积累，深⼊分析学校的路权利和偏好、研判学校录取趋势、精准定位学⽣的申请⽅案，帮助学⽣争取最理想的录取结果。</p>
+        <p class="i18n" name="nuclearAdvantage.crad7.behind"></p>
       </div>
     </div>
 
@@ -132,14 +156,16 @@
 
   <div class="pmfo-index__footer">
     <div class="pmfo-index__footer-wrapper">
-      <span>Copyright © 2022  Pinnacle Millennium Family Office ｜ ICP备0000000号</span>
-      <span>地址：北京市朝阳区北四环中路27号盘古⼤观9-901</span>
+      <span class="i18n" name="common.footer.text1"></span>
+      <span class="i18n" name="common.footer.text2"></span>
     </div>
   </div>
 
   <div id="pmfo-to-top">
     <i class="glyphicon glyphicon-plane"></i>
   </div>
+  <script src="./js/jquery.i18n.properties.js"></script>
+  <script src="./js/language.js"></script>
   <script src="./js/common.js"></script>
 </body>
 </html>
