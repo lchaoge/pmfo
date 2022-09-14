@@ -12,9 +12,6 @@
 * Browsers: last 4 version
 */
 
-.pmfo{
-  min-width: 1200px !important;
-}
 .pmfo-index__header{
   position: fixed;
   top: 0;
@@ -171,18 +168,9 @@
 
 .pmfo-index__footer{
   background: #1A1A1A;
-  height: 36px;
+  padding: 10px;
 }
 .pmfo-index__footer-wrapper{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   height: 100%;
   text-align: center;
   font-size: 12px;
@@ -242,8 +230,47 @@
   }
 }
 
+/* 360px */
+@media (max-width: 768px) {
+  .pmfo-index__header-login span{
+    font-size: 12px;
+    left: 0px;
+  }
+  .pmfo-index__header-nav>li{
+    padding: 0;
+  }
+  .pmfo-index__header-nav>li>a{
+    font-size: 12px;
+  }
+}
+/* 768px */
+@media (min-width: 768px) and (max-width: 992px) {
+  .pmfo-index__header-login span{
+    font-size: 12px;
+    left: 0px;
+  }
+  .pmfo-index__header-nav>li{
+    padding: 0;
+  }
+  .pmfo-index__header-nav>li>a{
+    font-size: 12px;
+  }
+}
+/* 992 */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .pmfo-index__header-login span{
+    font-size: 12px;
+    left: 0px;
+  }
+  .pmfo-index__header-nav>li{
+    padding: 0;
+  }
+  .pmfo-index__header-nav>li>a{
+    font-size: 12px;
+  }
+}
 /* 1200 */
-@media (max-width: 1440px) {
+@media (min-width: 1200px) and (max-width: 1440px){
   .pmfo-index__header-login span{
     font-size: 12px;
     left: 0px;
@@ -265,6 +292,15 @@
   }
   .pmfo-index__header-nav>li>a{
     font-size: 16px;
+  }
+  .pmfo-en .pmfo-index__header-nav>li>a{
+    font-size: 14px;
+  }
+  .pmfo-en .pmfo-index__header-nav>li{
+    padding: 0;
+  }
+  .pmfo-en .pmfo-index__header-login span {
+    font-size: 14px;
   }
   
 }

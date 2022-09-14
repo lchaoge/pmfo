@@ -137,12 +137,12 @@
 }
 
 .pmfo-ourServices__programme{
-  padding: 0 162px;
-  height: 1060px;
-  background: url(../images/ourServices__programme-4.png);
+  padding: 168px 162px;
+  background: url(../images/ourServices__programme-4.png) no-repeat center center;
+  background-size: 100% 100%;
 }
 .pmfo-ourServices__programme-title{
-  padding: 168px 0 138px;
+  padding: 0 0 138px;
   font-size: 40px;
   font-weight: 500;
   line-height: 56px;
@@ -206,12 +206,12 @@
 }
 
 .pmfo-ourServices__selprogramme{
-  height: 594px;
+  padding: 120px;
   background: url(../images/ourServices__selprogramme-1.png) no-repeat center center;
   background-size: 100% 100%;
 }
 .pmfo-ourServices__selprogramme-title{
-  padding: 124px 0 120px;
+  padding-bottom: 80px;
   font-size: 40px;
   font-weight: 500;
   line-height: 56px;
@@ -222,9 +222,6 @@
 .pmfo-ourServices__selprogramme-title>em{
   color: #C7A47C;
   font-style: normal;
-}
-.pmfo-ourServices__selprogramme-content{
-  padding: 0 140px;
 }
 .pmfo-ourServices__selprogramme-content>p{
   margin: 0;
@@ -260,9 +257,170 @@
   transition: .3s ease;
 }
 
-
+/* 360px */
+@media (max-width: 768px) {
+  .pmfo-ourServices__shutter{
+    flex-wrap: wrap;
+  }
+  .pmfo-ourServices__shutter-card{
+    height: 600px;
+    width: 100%;
+  }
+  .pmfo-ourServices__shutter-front-image{
+    width: 100px;
+    height: 100px;
+  }
+  .pmfo-ourServices__shutter-front-text{
+    padding: 30px 30px 0;
+  }
+  .pmfo-ourServices__shutter-front-text>p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .pmfo-ourServices__shutter-behind>p{
+    font-size: 14px;
+  }
+  .pmfo-ourServices__shutter-behind>p:first-of-type:before{
+    width: 30px;
+  }
+  .pmfo-ourServices__programme{
+    padding: 40px 20px;
+    height: auto;
+  }
+  .pmfo-ourServices__programme-title{
+    padding: 0 0 40px;
+    font-size: 26px;
+    line-height: 1;
+  }
+  .pmfo-ourServices__programme-content{
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .pmfo-ourServices__programme-card{
+    padding: 0 0 20px;
+    width: 100%;
+  }
+  .pmfo-ourServices__programme-card-title{
+    font-size: 16px;
+    height: 80px;
+  }
+  .pmfo-ourServices__selprogramme{
+    padding: 40px 20px;
+  }
+  .pmfo-ourServices__selprogramme-title{
+    padding-bottom: 40px;
+    font-size: 26px;
+    line-height: 1;
+  }
+  .pmfo-ourServices__selprogramme-content>p{
+    line-height: 1.4;
+    font-size: 16px;
+  }
+}
+/* 768px */
+@media (min-width: 768px) and (max-width: 992px) {
+  .pmfo-ourServices__shutter{
+    flex-wrap: wrap;
+  }
+  .pmfo-ourServices__shutter-card{
+    height: 600px;
+    width: 50%;
+  }
+  .pmfo-ourServices__shutter-front-image{
+    width: 100px;
+    height: 100px;
+  }
+  .pmfo-ourServices__shutter-front-text{
+    padding: 30px 30px 0;
+  }
+  .pmfo-ourServices__shutter-front-text>p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .pmfo-ourServices__shutter-behind>p{
+    font-size: 14px;
+  }
+  .pmfo-ourServices__shutter-behind>p:first-of-type:before{
+    width: 30px;
+  }
+  .pmfo-ourServices__programme{
+    padding: 80px;
+    height: auto;
+  }
+  .pmfo-ourServices__programme-title{
+    padding: 0 0 60px;
+    font-size: 30px;
+    line-height: 1;
+  }
+  .pmfo-ourServices__programme-card-title{
+    font-size: 20px;
+    height: 100px;
+  }
+  .pmfo-ourServices__selprogramme{
+    padding: 80px;
+  }
+  .pmfo-ourServices__selprogramme-title{
+    padding-bottom: 40px;
+    font-size: 30px;
+    line-height: 1;
+  }
+  .pmfo-ourServices__selprogramme-content>p{
+    line-height: 1.5;
+  }
+}
+/* 992 */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .pmfo-ourServices__shutter{
+    flex-wrap: wrap;
+  }
+  .pmfo-ourServices__shutter-card{
+    height: 600px;
+    width: 33.333%;
+  }
+  .pmfo-ourServices__shutter-front-image{
+    width: 100px;
+    height: 100px;
+  }
+  .pmfo-ourServices__shutter-front-text{
+    padding: 30px 30px 0;
+  }
+  .pmfo-ourServices__shutter-front-text>p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .pmfo-ourServices__shutter-behind>p{
+    font-size: 14px;
+  }
+  .pmfo-ourServices__shutter-behind>p:first-of-type:before{
+    width: 30px;
+  }
+  .pmfo-ourServices__programme{
+    padding: 80px;
+    height: auto;
+  }
+  .pmfo-ourServices__programme-title{
+    padding: 0 0 60px;
+    font-size: 30px;
+    line-height: 1;
+  }
+  .pmfo-ourServices__programme-card-title{
+    font-size: 20px;
+    height: 100px;
+  }
+  .pmfo-ourServices__selprogramme{
+    padding: 80px;
+  }
+  .pmfo-ourServices__selprogramme-title{
+    padding-bottom: 40px;
+    font-size: 30px;
+    line-height: 1;
+  }
+  .pmfo-ourServices__selprogramme-content>p{
+    line-height: 1.5;
+  }
+}
 /* 1200 */
-@media (max-width: 1440px) {
+@media (min-width: 1200px) and (max-width: 1440px) {
   .pmfo-ourServices__shutter-card{
     height: 700px;
   }

@@ -109,6 +109,8 @@ var execI18n = function(){
           return false;
       };
 
+      $(".pmfo").addClass(`pmfo-${i18nLanguage}`)
+
       /*
       这里需要进行i18n的翻译
        */
