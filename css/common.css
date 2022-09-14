@@ -11,7 +11,9 @@
 * Autoprefixer: v10.4.7
 * Browsers: last 4 version
 */
-
+.pmfo{
+  overflow: auto;
+}
 .pmfo-index__header{
   position: fixed;
   top: 0;
