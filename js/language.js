@@ -110,6 +110,7 @@ var execI18n = function(){
       };
 
       $(".pmfo").addClass(`pmfo-${i18nLanguage}`)
+      $("html").attr("lang",i18nLanguage)
 
       /*
       这里需要进行i18n的翻译
