@@ -18,11 +18,11 @@
 .pmfo-serviceScope__card-1{
   margin-top: 72px;
   background: url(../images/serviceScope__card-1.png) no-repeat center center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .pmfo-serviceScope__card-2{
   background: url(../images/serviceScope__card-2.png) no-repeat center center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .pmfo-serviceScope__card-wrapper{
   padding: 275px 158px;

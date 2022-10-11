@@ -16,7 +16,7 @@
   position: relative;
   height: 1080px;
   background: url(../images/index__banner-1.png) no-repeat center center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .pmfo-index__banner-textbox{
   position: absolute;
@@ -94,7 +94,7 @@
 
 .pmfo-index__idea{
   background: url(../images/index__idea-1.png) no-repeat center center;
-  background-size: 100% 100%;
+  background-size: cover;
   padding: 190px 240px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -124,7 +124,7 @@
 .pmfo-index__service{
   padding: 190px 0;
   background: url(../images/index__idea-1.png) no-repeat center center rgba(6,28,45,0.69);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .pmfo-index__service-title{
   position: relative;

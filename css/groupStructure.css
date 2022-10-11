@@ -13,9 +13,10 @@
 */
 
 .pmfo-groupStructure__banner{
+  margin-top: 72px;
   height: 472px;
   background: url(../images/groupStructure__banner-1.png) no-repeat center center ;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .pmfo-groupStructure__introduce{
   position: relative;

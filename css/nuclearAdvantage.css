@@ -16,7 +16,7 @@
   height: 546px;
   position: relative;
   background: url(../images/nuclearAdvantage__banner.png) no-repeat center center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .pmfo-nuclearAdvantage__banner-textbox{
   position: absolute;
