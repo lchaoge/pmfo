@@ -20,8 +20,7 @@
 .pmfo-groupStructure__introduce{
   position: relative;
   padding: 130px 140px;
-  background: url(../images/groupStructure__introduce-1.png) no-repeat center center ;
-  background-size: 100% 100%;
+  background: url(../images/groupStructure__introduce-1.png) no-repeat top center ;
   z-index: 10;
 }
 .pmfo-groupStructure__introduce::after{
