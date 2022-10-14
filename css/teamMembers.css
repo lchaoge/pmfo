@@ -83,8 +83,8 @@
   line-height: 40px;
   color: #252525;
 }
-.pmfo-teamMembers__introduce-detail-describe>p{
-  margin: 0;
+.pmfo-teamMembers__introduce-detail-describe>div{
+  font-weight: 200;
 }
 .pmfo-teamMembers__introduce-avatar{
   position: relative;
