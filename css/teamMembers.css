@@ -84,7 +84,7 @@
   color: #252525;
 }
 .pmfo-teamMembers__introduce-detail-describe>div{
-  font-weight: lighter;
+  font-weight: 600;
 }
 .pmfo-teamMembers__introduce-avatar{
   position: relative;
