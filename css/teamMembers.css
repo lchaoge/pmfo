@@ -126,7 +126,7 @@
   -o-transition: .3s ease;
   transition: .3s ease;
 }
-.pmfo-teamMembers__introduce-card-front>img{
+.pmfo-teamMembers__introduce-card-front>.img{
   display: block;
   width: 100%;
   height: 100%;
