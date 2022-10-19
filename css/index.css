@@ -192,7 +192,9 @@
   line-height: 1.2;
   color: #FFFFFF;
   text-align: center;
-  background: rgba(62,62,62,0.39);
+  background: rgba(62,62,62,0.5);
+  filter: drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.5));
+  backdrop-filter: blur(2px);
 }
 
 .pmfo-index__future{
